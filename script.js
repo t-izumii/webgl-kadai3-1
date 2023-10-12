@@ -1,5 +1,5 @@
-import * as THREE from '../lib/three.module.js';
-import { OrbitControls } from '../lib/OrbitControls.js';
+import * as THREE from './lib/three.module.js';
+import { OrbitControls } from './lib/OrbitControls.js';
 
 // DOM がパースされたことを検出するイベントで App3 クラスをインスタンス化する
 window.addEventListener('DOMContentLoaded', () => {
